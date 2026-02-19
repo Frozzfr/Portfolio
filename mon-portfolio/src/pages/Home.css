@@ -1,0 +1,98 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  text-align: center;
+}
+
+.home-container {
+  margin: auto;
+  max-width: 900px;
+}
+
+.home-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.logo2 {
+  width: 10rem;
+  height: auto;
+}
+
+.home-subtitle {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+  color: var(--secondary-color);
+}
+
+.home-description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+  opacity: 0.8;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.3s;
+  outline: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+  transform: scale(1.05);
+  background-color: var(--secondary-color);
+  color: #ffffff;
+}
+
+.btn-outline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid var(--text-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.btn-outline:hover {
+  text-decoration: none;
+  background: var(--primary-color);
+  color: var(--background-color);
+  transform: scale(1.05);
+}
+
+.btn-cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.3s;
+}

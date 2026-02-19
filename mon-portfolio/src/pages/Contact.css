@@ -1,0 +1,45 @@
+.contact {
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  border-radius: 12px;
+  background-color: var(--background-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: var(--text-color);
+}
+
+.contact h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.contact p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.contact ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.contact ul li {
+  margin-bottom: 1rem;
+  color: var(--text-color);
+  opacity: 0.85;
+}
+
+.contact a {
+  color: var(--secondary-color);
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contact a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}

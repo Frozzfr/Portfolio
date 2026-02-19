@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Bac Pro Systèmes Numériques",
+    "description": "Installation, configuration et maintenance d'équipements numériques en entreprise.",
+    "technologies": ["Linux", "Réseaux", "Sécurité"],
+    "image": "/assets/projects/bac-pro.jpg"
+  },
+  {
+    "title": "BTS SIO SLAM - Alternance",
+    "description": "Développement d'applications, maintenance de systèmes, projets web en entreprise.",
+    "technologies": ["PHP", "HTML", "JavaScript", "React"],
+    "image": "/assets/projects/bts-sio.jpg"
+  },
+  {
+    "title": "Challenges Root-Me",
+    "description": "Résolution de challenges CTF en cybersécurité (Web, Crypto, Systèmes).",
+    "technologies": ["Cybersécurité", "Linux", "Réseaux"],
+    "image": "/assets/projects/rootme.jpg",
+    "link": "https://www.root-me.org/Frozz-716148"
+  },
+  {
+    "title": "Portfolio Personnel",
+    "description": "Site web moderne en ReactJS pour présenter mes projets et compétences.",
+    "technologies": ["React", "CSS", "Vite"],
+    "image": "/assets/projects/portfolio.jpg"
+  },
+
+  {
+    "title": "Site Web d'Entreprise",
+    "description": "Création d'un site web pour une entreprise locale avec WordPress.",
+    "technologies": ["HTML", "CSS"],
+    "image": "/assets/projects/site.jpg"
+  },
+  {
+    "title": "Application de Gestion de Tâches",
+    "description": "Développement d'une application de gestion de tâches en PHP et MySQL.",
+    "technologies": ["PHP","CSS","HTML", "MySQL", "JavaScript"],
+    "image": "/assets/projects/todo-app.jpg"
+  }
+]
