@@ -3,11 +3,11 @@
 
 :root {
   /* Mode Light Professionnel */
-  --background-color: #FFFFFF;
+  --background-color: #F1F5F9;
   /* Jaune banane #E7F00D #DFFF00 	#FDEE00 #FCCD54 */
   --text-color: #212121;
-  --primary-color: #9B59B6;
-  --secondary-color: #9B59B6;
+  --primary-color: #0F172A;
+  --secondary-color: #2563EB;
 
   /* Dark and light menu */
   --dark-light-background: #F0F0F0;
@@ -17,17 +17,23 @@
 
   /* Scrollbar */
   --scrollbar-track: #f0f0f014;
-  --scrollbar-thumb: #9B59B6;
-  --scrollbar-thumb-hover: #9B59B6;
+  --scrollbar-thumb: #2563EB;
+  --scrollbar-thumb-hover: #2563EB;
+
+
+  --card-projet: #FFFFFF;
+  --over-project: #F0F0F0;
+  --border-projet: 1px solid #E2E8F0;
+  --box-shadows-projet: 0 4px 12px rgba(15, 23, 42, 0.05);
 }
 
 
 body.dark {
   /* Mode Dark Professionnel */
-  --background-color: #121212;
+  --background-color: #0F1117;
   --text-color: #E0E0E0;
-  --primary-color: #9B59B6;
-  --secondary-color: #9B59B6;
+  --primary-color: #FFFFFF;
+  --secondary-color: #2563EB;
 
   /* Dark and light menu */
   --dark-light-background: #F0F0F0;
@@ -37,8 +43,13 @@ body.dark {
 
   /* Scrollbar */
   --scrollbar-track: #1A1A1A;
-  --scrollbar-thumb: #9B59B6;
-  --scrollbar-thumb-hover: #9B59B6;
+  --scrollbar-thumb: #2563EB;
+  --scrollbar-thumb-hover: #2563EB;
+
+  --card-projet: #1A1F2E;
+  --over-project: #232A3A;
+  --border-projet: 0px solid #E2E8F0;
+  --box-shadows-projet: 0 0px 0px rgba(15, 23, 42, 0.05);
 }
 
 
@@ -63,7 +74,7 @@ button:hover {
 }
 
 li {
- color: var(--text-color);
+  color: var(--text-color);
 }
 
 * {
@@ -169,6 +180,7 @@ video {
   font-size: 100%;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -183,17 +195,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -211,32 +227,42 @@ table {
 
 /* Taille de la scrollbar */
 ::-webkit-scrollbar {
-  width: 4px; /* Scrollbar verticale */
-  height: 4px; /* Scrollbar horizontale */
+  width: 4px;
+  /* Scrollbar verticale */
+  height: 4px;
+  /* Scrollbar horizontale */
 }
 
 /* Fond de la piste de la scrollbar */
 ::-webkit-scrollbar-track {
-  background: var(--scrollbar-track); /* Couleur dynamique Light/Dark */
-  border-radius: 10px; /* Coins arrondis */
+  background: var(--scrollbar-track);
+  /* Couleur dynamique Light/Dark */
+  border-radius: 10px;
+  /* Coins arrondis */
 }
 
 /* La barre qu'on déplace (thumb) */
 ::-webkit-scrollbar-thumb {
-  background-color: var(--scrollbar-thumb); /* Couleur dynamique Light/Dark */
-  border-radius: 10px; /* Effet pill/capsule */
-  border: 1px solid var(--scrollbar-track); /* Fine bordure */
+  background-color: var(--scrollbar-thumb);
+  /* Couleur dynamique Light/Dark */
+  border-radius: 10px;
+  /* Effet pill/capsule */
+  border: 1px solid var(--scrollbar-track);
+  /* Fine bordure */
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Au survol : barre plus vive */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: var(--scrollbar-thumb-hover); /* Hover dynamique */
-  box-shadow: 0 0 8px var(--scrollbar-thumb-hover); /* Glow léger au hover */
+  background-color: var(--scrollbar-thumb-hover);
+  /* Hover dynamique */
+  box-shadow: 0 0 8px var(--scrollbar-thumb-hover);
+  /* Glow léger au hover */
 }
 
 /* Scrollbar pour Firefox */
 * {
-  scrollbar-width: thin; /* Fait une scrollbar fine sur Firefox */
+  scrollbar-width: thin;
+  /* Fait une scrollbar fine sur Firefox */
   scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
 }

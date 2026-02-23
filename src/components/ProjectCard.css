@@ -1,14 +1,15 @@
 .project-card {
-  background-color: rgba(128, 128, 128, 0.087);
+  background-color: var(--card-projet);
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  border: var(--border-projet);
+  box-shadow: var(--box-shadows-projet);
 }
 
 .project-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 2px 20px rgba(155, 89, 182, 0.4);
+  background-color: var(--over-project);
 }
 
 .project-card h3 {
