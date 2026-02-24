@@ -1,6 +1,6 @@
-import PageFade from '../components/PageFade';
+import PageFade from '../../components/PageFade';
 import './Competences.css';
-import skills from '../components/data/skills.json';
+import skills from '../../components/data/skills.json';
 
 // Import général des icônes React Icons
 import * as Fa from 'react-icons/fa';

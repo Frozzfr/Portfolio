@@ -12,8 +12,11 @@ import MentionsLegales from "./pages/MentionsLegales.jsx";
 
 // About nested
 import AboutLayout from "./pages/about/AboutLayout";
-import Moi from "./pages/about/Moi.jsx";
+import Moi from "./pages/about/Moi";
 import Entreprise from "./pages/about/Entreprise";
+import Competences from "./pages/about/Competences";
+import Parcours from "./pages/about/Parcours";
+import Objectifs from "./pages/about/Objectifs";
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
           <Route index element={<Navigate to="moi" replace />} />
           <Route path="moi" element={<Moi />} />
           <Route path="entreprise" element={<Entreprise />} />
+          <Route path="competences" element={<Competences />} />
+          <Route path="parcours" element={<Parcours />} />
+          <Route path="objectifs" element={<Objectifs />} />
         </Route>
 
         <Route path="/projects" element={<Projects />} />
