@@ -1,326 +1,179 @@
-/* =========================
-   ABOUT DASH (Ultra Pro)
-   ========================= */
-
-/* (Optionnel) petites variables pour te simplifier la vie */
-:root {
-    --ad-radius-xl: 22px;
-    --ad-radius-lg: 18px;
-    --ad-radius-md: 14px;
-
-    --ad-border: rgba(0, 0, 0, .10);
-    --ad-border-2: rgba(0, 0, 0, .16);
-
-    --ad-bg: rgba(255, 255, 255, .70);
-    --ad-bg-2: rgba(255, 255, 255, .82);
-    --ad-muted: rgba(0, 0, 0, .68);
-
-    --ad-shadow: 0 18px 50px rgba(0, 0, 0, .10);
-    --ad-shadow-2: 0 14px 32px rgba(0, 0, 0, .14);
-
-    --ad-blur: blur(12px);
-}
-
 .aboutDash {
-    width: min(1200px, 92vw);
-    margin: 0 auto;
-    padding: 28px 0 64px;
+    width: 100%;
+    padding: 2rem 1.5rem 4rem;
+    color: var(--text-color);
 }
 
-/* Header */
 .aboutDash__header {
-    margin: 0 0 16px;
-    padding: 14px 0 6px;
+    margin-bottom: 2rem;
 }
 
-.aboutDash__header h1 {
-    margin: 0;
-    font-size: clamp(26px, 2.6vw, 38px);
-    letter-spacing: -0.3px;
-    line-height: 1.1;
-}
-
-.aboutDash__header p {
-    margin: 10px 0 0;
-    color: var(--ad-muted);
-    line-height: 1.45;
-    font-size: 15px;
-}
-
-/* Grid Layout */
 .aboutDash__grid {
     display: grid;
     grid-template-columns: 320px 1fr;
-    gap: 22px;
+    gap: 1.5rem;
     align-items: start;
 }
 
-/* Sidebar sticky */
-.aboutDash__side {
-    position: sticky;
-    top: 92px;
-    /* adapte si ta Navbar est plus haute */
-}
-
-/* Sidebar card */
+/* Carte de navigation */
 .aboutDash__card {
-    border-radius: var(--ad-radius-xl);
-    border: 1px solid var(--ad-border);
-    background: var(--ad-bg);
-    backdrop-filter: var(--ad-blur);
-    box-shadow: var(--ad-shadow);
-    padding: 14px;
-    overflow: hidden;
+    background: var(--card-projet);
+    border: var(--border-projet);
+    border-radius: 20px;
+    box-shadow: var(--box-shadows-projet);
+    padding: 1rem;
+    position: sticky;
+    top: 100px;
 }
 
-/* Petit effet “top shine” */
-.aboutDash__card::before {
-    content: "";
-    position: absolute;
-    inset: -60px -80px auto -80px;
-    height: 140px;
-    background: radial-gradient(closest-side, rgba(255, 255, 255, .65), transparent 65%);
-    pointer-events: none;
-    opacity: .65;
-}
-
-/* Titre sidebar */
-.aboutDash__title {
-    font-weight: 850;
-    letter-spacing: .2px;
-    padding: 8px 10px 10px;
-    color: rgba(0, 0, 0, .78);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-/* Nav list */
+/* Navigation */
 .aboutDash__nav {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding: 6px;
+    gap: 0.75rem;
 }
 
-/* Link item */
+/* Lien */
 .aboutDash__link {
-    display: grid;
-    grid-template-columns: 44px 1fr;
-    gap: 12px;
-    align-items: center;
-
-    padding: 12px 12px;
-    border-radius: var(--ad-radius-lg);
-    text-decoration: none;
-    color: inherit;
-
-    border: 1px solid transparent;
-    background: rgba(0, 0, 0, .03);
-    transition:
-        transform .14s ease,
-        box-shadow .14s ease,
-        border-color .14s ease,
-        background .14s ease;
-    will-change: transform;
-}
-
-/* Hover */
-.aboutDash__link:hover {
-    transform: translateY(-1px);
-    border-color: rgba(0, 0, 0, .12);
-    background: rgba(0, 0, 0, .04);
-    box-shadow: var(--ad-shadow-2);
-}
-
-/* Active */
-.aboutDash__link.is-active {
-    border-color: var(--ad-border-2);
-    background: rgba(0, 0, 0, .06);
-    box-shadow: 0 18px 50px rgba(0, 0, 0, .16);
-    position: relative;
-}
-
-/* Active left bar */
-.aboutDash__link.is-active::before {
-    content: "";
-    position: absolute;
-    left: 10px;
-    top: 12px;
-    bottom: 12px;
-    width: 4px;
-    border-radius: 999px;
-    background: currentColor;
-    opacity: .78;
-}
-
-/* Icon bubble */
-.aboutDash__icon {
-    width: 44px;
-    height: 44px;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.9rem;
+    padding: 1rem;
     border-radius: 16px;
-    display: grid;
-    place-items: center;
-    border: 1px solid rgba(0, 0, 0, .10);
-    background: rgba(255, 255, 255, .78);
-    box-shadow: 0 10px 22px rgba(0, 0, 0, .08);
+    text-decoration: none;
+    color: var(--text-color);
+    background: transparent;
+    border: 1px solid transparent;
+    transition:
+        background-color 0.25s ease,
+        border-color 0.25s ease,
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
 }
 
-/* Text */
+.aboutDash__link:hover {
+    background: var(--over-project);
+    border-color: #e2e8f0;
+    transform: translateY(-2px);
+}
+
+/* Etat actif */
+.aboutDash__link.is-active {
+    background: rgba(37, 99, 235, 0.08);
+    border-color: rgba(37, 99, 235, 0.2);
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.08);
+}
+
+/* Icône */
+.aboutDash__icon {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--dark-light-background);
+    color: var(--secondary-color);
+    transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.aboutDash__link.is-active .aboutDash__icon {
+    background: var(--secondary-color);
+    color: #ffffff;
+}
+
+/* Texte */
 .aboutDash__text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
     min-width: 0;
+    flex: 1;
 }
 
 .aboutDash__label {
     display: flex;
     align-items: center;
-    gap: 10px;
-    font-weight: 900;
-    letter-spacing: -0.2px;
-    line-height: 1.15;
+    justify-content: space-between;
+    gap: 0.75rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--primary-color);
 }
 
 .aboutDash__desc {
-    display: block;
-    margin-top: 6px;
-    font-size: 13px;
-    color: var(--ad-muted);
-    line-height: 1.35;
+    font-size: 0.92rem;
+    line-height: 1.45;
+    color: var(--text-color);
+    opacity: 0.75;
 }
 
-/* Arrow anim */
+/* Flèche */
 .aboutDash__arrow {
-    opacity: .55;
-    transform: translateX(-2px);
-    transition: transform .14s ease, opacity .14s ease;
+    opacity: 0;
+    transform: translateX(-6px);
+    transition: opacity 0.25s ease, transform 0.25s ease;
 }
 
-.aboutDash__link:hover .aboutDash__arrow {
-    opacity: .85;
+.aboutDash__link:hover .aboutDash__arrow,
+.aboutDash__link.is-active .aboutDash__arrow {
+    opacity: 1;
     transform: translateX(0);
 }
 
-/* Content */
+/* Zone de contenu */
 .aboutDash__content {
-    border-radius: var(--ad-radius-xl);
-    border: 1px solid var(--ad-border);
-    background: var(--ad-bg-2);
-    backdrop-filter: var(--ad-blur);
-    box-shadow: var(--ad-shadow);
-    padding: 20px;
-    min-height: 420px;
+    background: var(--card-projet);
+    border: var(--border-projet);
+    border-radius: 20px;
+    box-shadow: var(--box-shadows-projet);
+    padding: 2rem;
+    min-height: 500px;
 }
 
-/* Typo inside content */
-.aboutDash__content h2 {
-    margin: 0 0 10px;
-    font-size: clamp(18px, 2vw, 24px);
-    letter-spacing: -0.2px;
-}
-
-.aboutDash__content p {
-    margin: 0;
-    color: var(--ad-muted);
-    line-height: 1.6;
-}
-
-/* Accessibility: focus visible */
-.aboutDash__link:focus-visible {
-    outline: 3px solid rgba(0, 0, 0, .35);
-    outline-offset: 3px;
-}
-
-/* Reduced motion */
-@media (prefers-reduced-motion: reduce) {
-
-    .aboutDash__link,
-    .aboutDash__arrow {
-        transition: none !important;
-    }
-}
-
-/* =========================
-   Responsive
-   ========================= */
-@media (max-width: 980px) {
+/* Responsive tablette */
+@media (max-width: 1024px) {
     .aboutDash__grid {
         grid-template-columns: 1fr;
     }
 
-    .aboutDash__side {
-        position: relative;
-        top: auto;
-    }
-
-    .aboutDash__nav {
-        flex-direction: row;
-        overflow-x: auto;
-        padding: 10px 6px 6px;
-        gap: 10px;
-    }
-
-    .aboutDash__link {
-        min-width: 240px;
+    .aboutDash__card {
+        position: static;
     }
 }
 
-/* =========================
-   Dark mode (si tu ajoutes un thème sombre)
-   ========================= */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --ad-border: rgba(255, 255, 255, .10);
-        --ad-border-2: rgba(255, 255, 255, .18);
-
-        --ad-bg: rgba(20, 20, 24, .55);
-        --ad-bg-2: rgba(20, 20, 24, .70);
-        --ad-muted: rgba(255, 255, 255, .70);
-
-        --ad-shadow: 0 18px 50px rgba(0, 0, 0, .45);
-        --ad-shadow-2: 0 14px 32px rgba(0, 0, 0, .55);
+/* Responsive mobile */
+@media (max-width: 640px) {
+    .aboutDash {
+        padding: 1.25rem 1rem 3rem;
     }
 
-    .aboutDash__card::before {
-        background: radial-gradient(closest-side, rgba(255, 255, 255, .16), transparent 60%);
-        opacity: .9;
+    .aboutDash__card,
+    .aboutDash__content {
+        border-radius: 16px;
+        padding: 1rem;
     }
 
     .aboutDash__link {
-        background: rgba(255, 255, 255, .04);
-    }
-
-    .aboutDash__link:hover {
-        background: rgba(255, 255, 255, .06);
-        border-color: rgba(255, 255, 255, .14);
-    }
-
-    .aboutDash__link.is-active {
-        background: rgba(255, 255, 255, .08);
-        border-color: rgba(255, 255, 255, .18);
+        padding: 0.9rem;
     }
 
     .aboutDash__icon {
-        border-color: rgba(255, 255, 255, .12);
-        background: rgba(255, 255, 255, .06);
-        box-shadow: 0 10px 22px rgba(0, 0, 0, .55);
+        width: 38px;
+        height: 38px;
+        min-width: 38px;
     }
 
-    .aboutDash__title {
-        color: rgba(255, 255, 255, .82);
+    .aboutDash__label {
+        font-size: 0.96rem;
     }
 
-    .aboutDash__link:focus-visible {
-        outline: 3px solid rgba(255, 255, 255, .28);
+    .aboutDash__desc {
+        font-size: 0.87rem;
     }
-}
 
-.aboutDash__title {
-    border-bottom: 1px solid rgba(0, 0, 0, .08);
-    margin: 0 6px 6px;
-}
-
-@media (prefers-color-scheme: dark) {
-    .aboutDash__title {
-        border-bottom-color: rgba(255, 255, 255, .10);
+    .aboutDash__content {
+        min-height: auto;
     }
 }

@@ -1,0 +1,82 @@
+.about-me {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.about-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 8px;
+}
+
+.about-subtitle {
+    color: var(--text-color);
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+.about-card {
+    background: var(--card-projet);
+    border-radius: 12px;
+    padding: 35px;
+    transition: all 0.3s ease;
+}
+
+.about-card:hover {
+    transform: translateY(-3px);
+}
+
+.about-hook {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 18px;
+}
+
+.about-text {
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.about-list {
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.about-list li {
+    margin-bottom: 8px;
+}
+
+.stack h3 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.tags span {
+    background: var(--over-project);
+    border-radius: 20px;
+    padding: 6px 14px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.tags span:hover {
+    background: var(--secondary-color);
+    color: white;
+}
+
+.about-goal {
+    font-style: italic;
+    opacity: 0.9;
+    line-height: 1.6;
+}

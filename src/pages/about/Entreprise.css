@@ -1,0 +1,295 @@
+.entreprise-page {
+    width: 100%;
+    color: var(--text-color);
+    background: var(--background-color);
+}
+
+/* HERO */
+.entreprise-hero {
+    padding: 5rem 1.5rem 3rem;
+    background:
+        radial-gradient(circle at top left, rgba(37, 99, 235, 0.12), transparent 35%),
+        linear-gradient(135deg, var(--background-color), rgba(37, 99, 235, 0.9));
+    color: #ffffff;
+}
+
+.entreprise-hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.entreprise-badge {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 0.45rem 0.85rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.08);
+    font-size: 0.88rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.entreprise-title {
+    margin: 0;
+    max-width: 760px;
+    font-size: clamp(2.2rem, 4vw, 4rem);
+    line-height: 1.1;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.entreprise-subtitle {
+    max-width: 780px;
+    margin: 1.25rem 0 0;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.entreprise-hero-stats {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(180px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.stat-card {
+    padding: 1.25rem;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.stat-card strong {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: 0.35rem;
+    color: #ffffff;
+}
+
+.stat-card span {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* SECTIONS */
+.entreprise-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4.5rem 1.5rem;
+}
+
+.alt-bg {
+    background: var(--background-color);
+    border-radius: 32px;
+}
+
+/* HEADINGS */
+.section-heading {
+    margin-bottom: 2rem;
+}
+
+.section-tag {
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 999px;
+    background: rgba(37, 99, 235, 0.1);
+    color: var(--secondary-color);
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.section-heading h2 {
+    margin: 0;
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
+    color: var(--primary-color);
+}
+
+/* GRID */
+.entreprise-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.two-columns {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.cards-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+/* CARDS */
+.info-card,
+.feature-card,
+.pillar-card {
+    background: var(--card-projet);
+    border: var(--border-projet);
+    border-radius: 24px;
+    padding: 1.6rem;
+    box-shadow: var(--box-shadows-projet);
+    transition: transform 0.25s ease, background 0.25s ease, box-shadow 0.25s ease;
+}
+
+.info-card:hover,
+.feature-card:hover,
+.pillar-card:hover {
+    transform: translateY(-4px);
+    background: var(--over-project);
+}
+
+.info-card h3,
+.feature-card h3,
+.pillar-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.9rem;
+    font-size: 1.15rem;
+    color: var(--primary-color);
+}
+
+.info-card p,
+.feature-card p,
+.pillar-card p {
+    margin: 0 0 1rem;
+    line-height: 1.75;
+    color: var(--text-color);
+}
+
+.info-card p:last-child,
+.feature-card p:last-child,
+.pillar-card p:last-child {
+    margin-bottom: 0;
+}
+
+/* TIMELINE */
+.timeline {
+    position: relative;
+    display: grid;
+    gap: 1.25rem;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 90px;
+    width: 2px;
+    height: 100%;
+    background: rgba(37, 99, 235, 0.22);
+}
+
+.timeline-item {
+    position: relative;
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    gap: 1.25rem;
+    align-items: start;
+}
+
+.timeline-year {
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 42px;
+    padding: 0.4rem 0.6rem;
+    border-radius: 12px;
+    background: var(--secondary-color);
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.timeline-content {
+    padding: 1.2rem 1.3rem;
+    background: var(--card-projet);
+    border: var(--border-projet);
+    border-radius: 20px;
+    box-shadow: var(--box-shadows-projet);
+    transition: transform 0.25s ease, background 0.25s ease;
+}
+
+.timeline-content:hover {
+    transform: translateY(-3px);
+    background: var(--over-project);
+}
+
+.timeline-content h3 {
+    margin: 0 0 0.6rem;
+    color: var(--primary-color);
+}
+
+.timeline-content p {
+    margin: 0;
+    line-height: 1.7;
+    color: var(--text-color);
+}
+
+/* PILLARS */
+.pillars {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.25rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+
+    .cards-grid,
+    .pillars {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 900px) {
+
+    .two-columns,
+    .entreprise-hero-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .timeline::before {
+        display: none;
+    }
+
+    .timeline-item {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 640px) {
+    .entreprise-hero {
+        padding: 4rem 1rem 2.5rem;
+    }
+
+    .entreprise-section {
+        padding: 3rem 1rem;
+    }
+
+    .cards-grid,
+    .pillars {
+        grid-template-columns: 1fr;
+    }
+
+    .info-card,
+    .feature-card,
+    .pillar-card,
+    .timeline-content {
+        border-radius: 20px;
+    }
+
+    .entreprise-title {
+        font-size: 2rem;
+    }
+
+    .entreprise-subtitle {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+}
