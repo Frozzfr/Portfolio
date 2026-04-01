@@ -17,6 +17,7 @@ function Projects() {
               technologies={project.technologies}
               image={project.image}
               link={project.link}
+              slug={project.slug}
             />
           ))}
         </div>

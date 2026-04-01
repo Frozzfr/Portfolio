@@ -20,17 +20,17 @@ export default function Entreprise() {
 
                     <div className="entreprise-hero-stats">
                         <article className="stat-card">
-                            <strong>40+</strong>
+                            40+
                             <span>collaborateurs</span>
                         </article>
 
                         <article className="stat-card">
-                            <strong>1984</strong>
+                            1984
                             <span>création de la filiale française</span>
                         </article>
 
                         <article className="stat-card">
-                            <strong>B2B</strong>
+                            B2B
                             <span>activité tournée vers l’industrie</span>
                         </article>
                     </div>
@@ -47,17 +47,17 @@ export default function Entreprise() {
                     <article className="info-card">
                         <h3>Une entreprise industrielle experte</h3>
                         <p>
-                            AEVA, <strong>Ateliers Electrothermiques de Vic-sur-Aisne</strong>,
+                            AEVA, Ateliers Electrothermiques de Vic-sur-Aisne,
                             est une entreprise spécialisée dans la{" "}
-                            <strong>fabrication d’équipements de chauffage industriel</strong>.
+                            fabrication d’équipements de chauffage industriel.
                             Elle développe des solutions permettant le réchauffage de fluides
                             et de solides par énergie électrique.
                         </p>
                         <p>
                             Son activité repose sur un savoir-faire technique reconnu, avec une
                             capacité à proposer à la fois des{" "}
-                            <strong>produits standards</strong> et des réalisations{" "}
-                            <strong>sur mesure</strong> selon les plans et les contraintes
+                            produits standards et des réalisations{" "}
+                            sur mesure selon les plans et les contraintes
                             techniques des clients.
                         </p>
                     </article>
@@ -66,14 +66,14 @@ export default function Entreprise() {
                         <h3>Un positionnement orienté performance</h3>
                         <p>
                             AEVA dispose de son propre réseau de{" "}
-                            <strong>développement, fabrication et commercialisation</strong>.
+                            développement, fabrication et commercialisation.
                             L’entreprise intervient principalement auprès d’une clientèle
                             industrielle en France et à l’export.
                         </p>
                         <p>
                             Elle s’appuie sur des valeurs fortes comme la{" "}
-                            <strong>fiabilité</strong>, la <strong>rapidité</strong> et la{" "}
-                            <strong>réactivité</strong>, avec une logique d’amélioration
+                            fiabilité, la rapidité et la{" "}
+                            réactivité, avec une logique d’amélioration
                             continue de ses produits et de ses services.
                         </p>
                     </article>
@@ -126,7 +126,7 @@ export default function Entreprise() {
                             <h3>Naissance d’AEVA</h3>
                             <p>
                                 Après son rachat, Backer France devient{" "}
-                                <strong>AEVA</strong>, Ateliers Electrothermiques de Vic-sur-Aisne.
+                                AEVA, Ateliers Electrothermiques de Vic-sur-Aisne.
                             </p>
                         </div>
                     </article>
@@ -257,10 +257,10 @@ export default function Entreprise() {
                         <h3>Une montée en compétences</h3>
                         <p>
                             Cette expérience me permet de développer des compétences en{" "}
-                            <strong>développement web</strong>, en{" "}
-                            <strong>gestion de données</strong>, en{" "}
-                            <strong>logique métier</strong> et en{" "}
-                            <strong>environnement réseau</strong>, tout en comprenant mieux les
+                            développement web, en{" "}
+                            gestion de données, en{" "}
+                            logique métier et en{" "}
+                            environnement réseau, tout en comprenant mieux les
                             enjeux opérationnels d’une entreprise.
                         </p>
                     </article>

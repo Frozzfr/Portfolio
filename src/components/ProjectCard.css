@@ -5,6 +5,9 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
   border: var(--border-projet);
   box-shadow: var(--box-shadows-projet);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .project-card:hover {
@@ -56,8 +59,19 @@
 
 .project-image {
   width: 100%;
-  height: 180px;
-  object-fit: cover;
+  height: auto;
+  max-height: 180px;
   border-radius: 8px;
   margin-bottom: 1rem;
+}
+
+.footer-card {
+  margin-top: auto;
+}
+
+.container-card-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }

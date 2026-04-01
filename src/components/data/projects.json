@@ -1,16 +1,38 @@
 [
   {
     "title": "Bac Pro Systèmes Numériques",
+    "slug": "bac-pro-systèmes-numériques",
     "description": "Installation, configuration et maintenance d'équipements numériques en entreprise.",
     "technologies": [
       "Linux",
       "Réseaux",
       "Sécurité"
     ],
-    "image": "/assets/projects/bac-pro.jpg"
+    "image": "logo_lycee.jpeg",
+    "link": "https://lp-lyc-metier-arthur-rimbaud-ribecourt-dreslincourt.60.ac-amiens.fr/",
+    "details": {
+      "context": "Alternance en entreprise avec développement web et gestion de projets.",
+      "objectives": [
+        "Créer des applications web",
+        "Maintenir des systèmes existants",
+        "Optimiser les performances"
+      ],
+      "features": [
+        "Développement d'une API",
+        "Refonte d'application interne",
+        "Optimisation base de données"
+      ],
+      "screenshots": [
+        "app1.png",
+        "app2.png"
+      ],
+      "github": "https://github.com/tonrepo",
+      "demo": null
+    }
   },
   {
     "title": "BTS SIO SLAM - Alternance",
+    "slug": "bts-sio-slam-alternance",
     "description": "Développement d'applications, maintenance de systèmes, projets web en entreprise.",
     "technologies": [
       "PHP",
@@ -18,32 +40,100 @@
       "JavaScript",
       "React"
     ],
-    "image": "/assets/projects/bts-sio.jpg"
+    "image": "promeo_logo.png",
+    "link": "https://www.promeo-formation.fr",
+    "details": {
+      "context": "Alternance en entreprise avec développement web et gestion de projets.",
+      "objectives": [
+        "Créer des applications web",
+        "Maintenir des systèmes existants",
+        "Optimiser les performances"
+      ],
+      "features": [
+        "Développement d'une API",
+        "Refonte d'application interne",
+        "Optimisation base de données"
+      ],
+      "screenshots": [
+        "app1.png",
+        "app2.png"
+      ],
+      "github": "https://github.com/tonrepo",
+      "demo": null
+    }
   },
   {
-    "title": "Challenges Root-Me",
-    "description": "Résolution de challenges CTF en cybersécurité (Web, Crypto, Systèmes).",
+    "title": "Apprenti Développeur Web et Réseaux - AEVA",
+    "slug": "apprenti-développeur-web-et-réseaux-aeva",
+    "description": "Maintenance et développement de sites web, gestion de serveurs, support technique en entreprise d'assurance dans l'entreprise AEVA.",
     "technologies": [
-      "Cybersécurité",
-      "Linux",
-      "Réseaux"
+      "React",
+      "HTML",
+      "CSS",
+      "PHP",
+      "MySQL",
+      "JavaScript",
+      "WordPress"
     ],
-    "image": "/assets/projects/rootme.jpg",
-    "link": "https://www.root-me.org/Frozz-716148"
+    "image": "aeva_logo.png",
+    "link": "",
+    "details": {
+      "context": "Alternance en entreprise avec développement web et gestion de projets.",
+      "objectives": [
+        "Créer des applications web",
+        "Maintenir des systèmes existants",
+        "Optimiser les performances"
+      ],
+      "features": [
+        "Développement d'une API",
+        "Refonte d'application interne",
+        "Optimisation base de données"
+      ],
+      "screenshots": [
+        "app1.png",
+        "app2.png"
+      ],
+      "github": "https://github.com/tonrepo",
+      "demo": null
+    }
   },
   {
-    "title": "Portfolio Personnel",
-    "description": "Site web moderne en ReactJS pour présenter mes projets et compétences.",
+    "title": "Portfolio",
+    "slug": "portfolio",
+    "description": "Site web pour présenter présenter compétences et projets réaliser pendant mon BTS SIO ainsi que mes expériences et mon entreprise d'alternance.",
     "technologies": [
       "React",
       "CSS",
-      "Vite"
+      "Vite",
+      "JavaScript",
+      "Json"
     ],
-    "image": "/assets/projects/portfolio.jpg"
+    "image": "portfolio_logo.png",
+    "link": "",
+    "details": {
+      "context": "Alternance en entreprise avec développement web et gestion de projets.",
+      "objectives": [
+        "Créer des applications web",
+        "Maintenir des systèmes existants",
+        "Optimiser les performances"
+      ],
+      "features": [
+        "Développement d'une API",
+        "Refonte d'application interne",
+        "Optimisation base de données"
+      ],
+      "screenshots": [
+        "app1.png",
+        "app2.png"
+      ],
+      "github": "https://github.com/tonrepo",
+      "demo": null
+    }
   },
   {
     "title": "Application de Gestion de Tâches",
-    "description": "Développement d'une application de gestion de tâches en PHP et MySQL.",
+    "slug": "",
+    "description": "En cours de développment chez AEVA ...",
     "technologies": [
       "PHP",
       "CSS",
@@ -51,6 +141,222 @@
       "MySQL",
       "JavaScript"
     ],
-    "image": "/assets/projects/todo-app.jpg"
+    "image": "",
+    "link": "",
+    "details": {
+      "context": "Alternance en entreprise avec développement web et gestion de projets.",
+      "objectives": [
+        "Créer des applications web",
+        "Maintenir des systèmes existants",
+        "Optimiser les performances"
+      ],
+      "features": [
+        "Développement d'une API",
+        "Refonte d'application interne",
+        "Optimisation base de données"
+      ],
+      "screenshots": [
+        "app1.png",
+        "app2.png"
+      ],
+      "github": "https://github.com/tonrepo",
+      "demo": null
+    }
+  },
+  {
+    "title": "Site web de AEVA",
+    "slug": "",
+    "description": "Modification et mise à jour du site web de AEVA",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP",
+      "MySQL",
+      "WordPress"
+    ],
+    "image": "aeva_logo.png",
+    "link": "https://www.aeva.fr",
+    "details": {
+      "context": "Alternance en entreprise avec développement web et gestion de projets.",
+      "objectives": [
+        "Créer des applications web",
+        "Maintenir des systèmes existants",
+        "Optimiser les performances"
+      ],
+      "features": [
+        "Développement d'une API",
+        "Refonte d'application interne",
+        "Optimisation base de données"
+      ],
+      "screenshots": [
+        "app1.png",
+        "app2.png"
+      ],
+      "github": "https://github.com/tonrepo",
+      "demo": null
+    }
+  },
+  {
+    "title": "Site de calcule en ligne de AEVA",
+    "slug": "site-de-calcule-en-ligne-de-aeva",
+    "description": "Mise à jour du site de calcule en ligne de AEVA, migration de PHP 5.6 à PHP 8.2, optimisation du code, correction de bugs et refonte du design.",
+    "technologies": [
+      "PHP",
+      "CSS",
+      "HTML",
+      "MySQL",
+      "JavaScript"
+    ],
+    "image": "aeva_logo.png",
+    "link": "https://aeva.fr/process/",
+    "details": {
+      "context": "Alternance en entreprise avec développement web et gestion de projets.",
+      "objectives": [
+        "Créer des applications web",
+        "Maintenir des systèmes existants",
+        "Optimiser les performances"
+      ],
+      "features": [
+        "Développement d'une API",
+        "Refonte d'application interne",
+        "Optimisation base de données"
+      ],
+      "screenshots": [
+        "app1.png",
+        "app2.png"
+      ],
+      "github": "https://github.com/tonrepo",
+      "demo": null
+    }
+  },
+  {
+    "title": "PPE - BTS SIO SLAM",
+    "slug": "ppe-bts-sio-slam",
+    "description": "Développement d'une application de gestion de stock pour l'association E2RS.",
+    "technologies": [
+      "React",
+      "Laravel",
+      "MySQL",
+      "JavaScript",
+      "CSS"
+    ],
+    "image": "",
+    "link": "",
+    "details": {
+      "context": "Alternance en entreprise avec développement web et gestion de projets.",
+      "objectives": [
+        "Créer des applications web",
+        "Maintenir des systèmes existants",
+        "Optimiser les performances"
+      ],
+      "features": [
+        "Développement d'une API",
+        "Refonte d'application interne",
+        "Optimisation base de données"
+      ],
+      "screenshots": [
+        "app1.png",
+        "app2.png"
+      ],
+      "github": "https://github.com/tonrepo",
+      "demo": null
+    }
+  },
+  {
+    "title": "PPE 2 - BTS SIO SLAM",
+    "slug": "ppe-2-bts-sio-slam",
+    "description": "Développement d'une application de gestion de stock pour l'association E2RS en format mobile.",
+    "technologies": [
+      "ReactNative",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JavaScript",
+      "CSS"
+    ],
+    "image": "",
+    "link": "",
+    "details": {
+      "context": "Alternance en entreprise avec développement web et gestion de projets.",
+      "objectives": [
+        "Créer des applications web",
+        "Maintenir des systèmes existants",
+        "Optimiser les performances"
+      ],
+      "features": [
+        "Développement d'une API",
+        "Refonte d'application interne",
+        "Optimisation base de données"
+      ],
+      "screenshots": [
+        "app1.png",
+        "app2.png"
+      ],
+      "github": "https://github.com/tonrepo",
+      "demo": null
+    }
+  },
+  {
+    "title": "LeCocoon D'Ysélia",
+    "slug": "lecocoon-dyselia",
+    "description": "Site vitrine en cours de développement ... LeCocoon D'Ysélia est un institut de beauté situé à ribecouret dreslincourt.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "image": "lecocon-dyselia.jpg",
+    "link": "",
+    "details": {
+      "context": "Alternance en entreprise avec développement web et gestion de projets.",
+      "objectives": [
+        "Créer des applications web",
+        "Maintenir des systèmes existants",
+        "Optimiser les performances"
+      ],
+      "features": [
+        "Développement d'une API",
+        "Refonte d'application interne",
+        "Optimisation base de données"
+      ],
+      "screenshots": [
+        "app1.png",
+        "app2.png"
+      ],
+      "github": "https://github.com/tonrepo",
+      "demo": null
+    }
+  },
+  {
+    "title": "Challenges Root-Me",
+    "slug": "challenges-root-me",
+    "description": "Résolution de challenges et CTF en cybersécurité (Web, Crypto, Systèmes).",
+    "technologies": [
+      "Cybersécurité",
+      "Linux",
+      "Réseaux"
+    ],
+    "image": "logo_root-me.png",
+    "link": "https://www.root-me.org/Frozz-716148",
+    "details": {
+      "context": "Alternance en entreprise avec développement web et gestion de projets.",
+      "objectives": [
+        "Créer des applications web",
+        "Maintenir des systèmes existants",
+        "Optimiser les performances"
+      ],
+      "features": [
+        "Développement d'une API",
+        "Refonte d'application interne",
+        "Optimisation base de données"
+      ],
+      "screenshots": [
+        "app1.png",
+        "app2.png"
+      ],
+      "github": "https://github.com/tonrepo",
+      "demo": null
+    }
   }
 ]
