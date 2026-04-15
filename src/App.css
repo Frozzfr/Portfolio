@@ -49,6 +49,12 @@ details,
   --over-project: #F0F0F0;
   --border-projet: 1px solid #E2E8F0;
   --box-shadows-projet: 0 4px 12px rgba(15, 23, 42, 0.05);
+
+  /* Entreprise */
+  --text-secondary: #475569;
+  --card-bg: #FFFFFF;
+  --border-color: #E2E8F0;
+
 }
 
 
@@ -72,8 +78,14 @@ body.dark {
 
   --card-projet: #1A1F2E;
   --over-project: #232A3A;
-  --border-projet: 0px solid #E2E8F0;
+  --border-projet: 0px solid #1A1F2E;
   --box-shadows-projet: 0 0px 0px rgba(15, 23, 42, 0.05);
+
+  /* Entreprise */
+  --text-secondary: #94A3B8;
+  --card-bg: #1A1F2E;
+  --border-color: rgba(148, 163, 184, 0.16);
+
 }
 
 

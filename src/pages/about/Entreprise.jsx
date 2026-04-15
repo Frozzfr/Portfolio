@@ -19,20 +19,20 @@ export default function Entreprise() {
                     </p>
 
                     <div className="entreprise-hero-stats">
-                        <article className="stat-card">
+                        <div className="stat-card">
                             40+
                             <span>collaborateurs</span>
-                        </article>
+                        </div>
 
-                        <article className="stat-card">
+                        <div className="stat-card">
                             1984
                             <span>création de la filiale française</span>
-                        </article>
+                        </div>
 
-                        <article className="stat-card">
+                        <div className="stat-card">
                             B2B
                             <span>activité tournée vers l’industrie</span>
-                        </article>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -44,7 +44,7 @@ export default function Entreprise() {
                 </div>
 
                 <div className="entreprise-grid two-columns">
-                    <article className="info-card">
+                    <div className="info-card">
                         <h3>Une entreprise industrielle experte</h3>
                         <p>
                             AEVA, Ateliers Electrothermiques de Vic-sur-Aisne,
@@ -60,9 +60,9 @@ export default function Entreprise() {
                             sur mesure selon les plans et les contraintes
                             techniques des clients.
                         </p>
-                    </article>
+                    </div>
 
-                    <article className="info-card">
+                    <div className="info-card">
                         <h3>Un positionnement orienté performance</h3>
                         <p>
                             AEVA dispose de son propre réseau de{" "}
@@ -76,7 +76,7 @@ export default function Entreprise() {
                             réactivité, avec une logique d’amélioration
                             continue de ses produits et de ses services.
                         </p>
-                    </article>
+                    </div>
                 </div>
             </section>
 
@@ -87,7 +87,7 @@ export default function Entreprise() {
                 </div>
 
                 <div className="timeline">
-                    <article className="timeline-item">
+                    <div className="timeline-item">
                         <span className="timeline-year">1930</span>
                         <div className="timeline-content">
                             <h3>Origine du procédé</h3>
@@ -96,9 +96,9 @@ export default function Entreprise() {
                                 résistance électrique blindée.
                             </p>
                         </div>
-                    </article>
+                    </div>
 
-                    <article className="timeline-item">
+                    <div className="timeline-item">
                         <span className="timeline-year">1984</span>
                         <div className="timeline-content">
                             <h3>Création de Backer France</h3>
@@ -107,9 +107,9 @@ export default function Entreprise() {
                                 transformer des résistances électriques blindées.
                             </p>
                         </div>
-                    </article>
+                    </div>
 
-                    <article className="timeline-item">
+                    <div className="timeline-item">
                         <span className="timeline-year">1990</span>
                         <div className="timeline-content">
                             <h3>Installation à Vic-sur-Aisne</h3>
@@ -118,9 +118,9 @@ export default function Entreprise() {
                                 Compiègne pour s’implanter à Vic-sur-Aisne.
                             </p>
                         </div>
-                    </article>
+                    </div>
 
-                    <article className="timeline-item">
+                    <div className="timeline-item">
                         <span className="timeline-year">1992</span>
                         <div className="timeline-content">
                             <h3>Naissance d’AEVA</h3>
@@ -129,9 +129,9 @@ export default function Entreprise() {
                                 AEVA, Ateliers Electrothermiques de Vic-sur-Aisne.
                             </p>
                         </div>
-                    </article>
+                    </div>
 
-                    <article className="timeline-item">
+                    <div className="timeline-item">
                         <span className="timeline-year">2012</span>
                         <div className="timeline-content">
                             <h3>Développement du pôle usinage</h3>
@@ -140,9 +140,9 @@ export default function Entreprise() {
                                 diversité et la maîtrise de la production.
                             </p>
                         </div>
-                    </article>
+                    </div>
 
-                    <article className="timeline-item">
+                    <div className="timeline-item">
                         <span className="timeline-year">2013+</span>
                         <div className="timeline-content">
                             <h3>Modernisation technique</h3>
@@ -151,7 +151,7 @@ export default function Entreprise() {
                                 renforcement des études thermiques et fluidiques.
                             </p>
                         </div>
-                    </article>
+                    </div>
                 </div>
             </section>
 
@@ -162,37 +162,37 @@ export default function Entreprise() {
                 </div>
 
                 <div className="entreprise-grid cards-grid">
-                    <article className="feature-card">
+                    <div className="feature-card">
                         <h3>Électrothermie industrielle</h3>
                         <p>
                             Conception et fabrication d’éléments chauffants pour les besoins de
                             l’industrie.
                         </p>
-                    </article>
+                    </div>
 
-                    <article className="feature-card">
+                    <div className="feature-card">
                         <h3>Produits standards</h3>
                         <p>
                             Mise à disposition de thermoplongeurs et ailettes standards prêts à
                             la vente directe.
                         </p>
-                    </article>
+                    </div>
 
-                    <article className="feature-card">
+                    <div className="feature-card">
                         <h3>Solutions sur mesure</h3>
                         <p>
                             Fabrication sur plans et spécifications clients pour répondre à des
                             contraintes techniques précises.
                         </p>
-                    </article>
+                    </div>
 
-                    <article className="feature-card">
+                    <div className="feature-card">
                         <h3>Usinage / décolletage</h3>
                         <p>
                             Appui d’un pôle de production complémentaire permettant d’élargir la
                             diversité des pièces et composants.
                         </p>
-                    </article>
+                    </div>
                 </div>
             </section>
 
@@ -203,36 +203,36 @@ export default function Entreprise() {
                 </div>
 
                 <div className="pillars">
-                    <article className="pillar-card">
+                    <div className="pillar-card">
                         <h3>Disponibilité</h3>
                         <p>
                             Être réactif et à l’écoute des besoins et attentes des clients.
                         </p>
-                    </article>
+                    </div>
 
-                    <article className="pillar-card">
+                    <div className="pillar-card">
                         <h3>Productivité</h3>
                         <p>
                             Optimiser l’organisation et les moyens de production pour gagner en
                             efficacité.
                         </p>
-                    </article>
+                    </div>
 
-                    <article className="pillar-card">
+                    <div className="pillar-card">
                         <h3>Qualité</h3>
                         <p>
                             S’inscrire dans une logique d’amélioration continue avec un objectif
                             de qualité durable.
                         </p>
-                    </article>
+                    </div>
 
-                    <article className="pillar-card">
+                    <div className="pillar-card">
                         <h3>Communication</h3>
                         <p>
                             Développer la visibilité et renforcer les échanges internes et
                             externes.
                         </p>
-                    </article>
+                    </div>
                 </div>
             </section>
 
@@ -243,27 +243,54 @@ export default function Entreprise() {
                 </div>
 
                 <div className="entreprise-grid two-columns">
-                    <article className="info-card">
-                        <h3>Un environnement concret</h3>
+                    <div className="info-card">
+                        <h3>Un environnement technique concret</h3>
                         <p>
-                            Mon alternance chez AEVA me permet d’évoluer dans un cadre
-                            professionnel où les outils numériques soutiennent directement une
-                            activité industrielle réelle. Les besoins sont concrets, techniques
-                            et orientés efficacité.
+                            Mon alternance chez AEVA me permet d’évoluer sur des applications
+                            utilisées en production, directement liées à une activité
+                            industrielle. J’interviens sur des outils métiers nécessitant une
+                            forte rigueur technique, notamment sur des problématiques de
+                            compatibilité, de performance et de stabilité.
                         </p>
-                    </article>
+                        <p>
+                            Cette immersion me confronte à du code existant (legacy), à des
+                            contraintes réelles d’exploitation et à des besoins métiers précis,
+                            ce qui m’amène à adopter une approche structurée et orientée
+                            résolution de problèmes.
+                        </p>
+                    </div>
 
-                    <article className="info-card">
-                        <h3>Une montée en compétences</h3>
+                    <div className="info-card">
+                        <h3>Une montée en compétences technique</h3>
                         <p>
-                            Cette expérience me permet de développer des compétences en{" "}
-                            développement web, en{" "}
-                            gestion de données, en{" "}
-                            logique métier et en{" "}
-                            environnement réseau, tout en comprenant mieux les
-                            enjeux opérationnels d’une entreprise.
+                            Cette expérience me permet de développer des compétences concrètes
+                            en développement web et en environnement système :
                         </p>
-                    </article>
+
+                        <ul>
+                            <li>Migration et modernisation d’applications (PHP 5.6 → PHP 8.2)</li>
+                            <li>Analyse et correction de bugs en environnement de production</li>
+                            <li>Optimisation du code et amélioration des performances</li>
+                            <li>Manipulation et optimisation de bases de données MySQL</li>
+                            <li>Compréhension et intégration de logiques métier</li>
+                            <li>Travail sur des interfaces web (HTML, CSS, JavaScript)</li>
+                            <li>Lecture, compréhension et refactorisation de code existant</li>
+                        </ul>
+
+                        <p>
+                            Au-delà des aspects techniques, cette alternance me permet de mieux
+                            comprendre les enjeux d’une entreprise : fiabilité des outils,
+                            impact direct sur les utilisateurs et nécessité de produire un code
+                            maintenable et évolutif.
+                        </p>
+
+                        <p>
+                            Dans ce contexte, j’ai eu l’opportunité de travailler sur plusieurs
+                            projets concrets, dont un outil de calcul en ligne utilisé par les
+                            clients pour configurer et commander des produits techniques, que
+                            je détaille ci-dessous.
+                        </p>
+                    </div>
                 </div>
             </section>
         </main>

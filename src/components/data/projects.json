@@ -11,20 +11,26 @@
     "image": "logo_lycee.jpeg",
     "link": "https://lp-lyc-metier-arthur-rimbaud-ribecourt-dreslincourt.60.ac-amiens.fr/",
     "details": {
-      "context": "Alternance en entreprise avec développement web et gestion de projets.",
+      "context": "Formation Bac Professionnel Systèmes Numériques orientée installation, maintenance et gestion d’infrastructures informatiques en environnement professionnel. Mise en pratique sur des équipements réseaux, systèmes Linux et interventions en entreprise.",
       "objectives": [
-        "Créer des applications web",
-        "Maintenir des systèmes existants",
-        "Optimiser les performances"
+        "Installer et configurer des équipements numériques",
+        "Assurer la maintenance et le dépannage de systèmes informatiques",
+        "Mettre en place des infrastructures réseaux sécurisées",
+        "Diagnostiquer et résoudre des incidents techniques",
+        "Appliquer les bonnes pratiques en cybersécurité"
       ],
       "features": [
-        "Développement d'une API",
-        "Refonte d'application interne",
-        "Optimisation base de données"
+        "Installation et configuration de postes clients (Windows / Linux)",
+        "Mise en place de réseaux locaux (câblage, switch, adressage IP)",
+        "Configuration de services réseau (DHCP, DNS, partage de fichiers)",
+        "Maintenance préventive et corrective de matériel informatique",
+        "Interventions techniques en environnement professionnel",
+        "Initiation à la sécurisation des systèmes et réseaux"
       ],
       "screenshots": [
-        "app1.png",
-        "app2.png"
+        "reseau_setup.png",
+        "maintenance_pc.png",
+        "linux_terminal.png"
       ],
       "github": "",
       "demo": null
@@ -43,20 +49,28 @@
     "image": "promeo_logo.png",
     "link": "https://www.promeo-formation.fr",
     "details": {
-      "context": "Alternance en entreprise avec développement web et gestion de projets.",
+      "context": "Formation BTS SIO option SLAM réalisée en alternance au sein de l’entreprise AEVA. Participation active au développement et à la maintenance d’applications web internes, avec gestion de projets et collaboration avec les équipes métiers.",
       "objectives": [
-        "Créer des applications web",
-        "Maintenir des systèmes existants",
-        "Optimiser les performances"
+        "Développer des applications web performantes et sécurisées",
+        "Maintenir et faire évoluer des systèmes existants",
+        "Répondre aux besoins métiers à travers des solutions techniques adaptées",
+        "Optimiser les performances des applications et des bases de données",
+        "Travailler en environnement professionnel avec gestion de projet"
       ],
       "features": [
-        "Développement d'une API",
-        "Refonte d'application interne",
-        "Optimisation base de données"
+        "Développement d’applications web (front-end et back-end)",
+        "Création et intégration d’API REST",
+        "Maintenance corrective et évolutive d’applications existantes",
+        "Optimisation des requêtes SQL et des performances globales",
+        "Refonte d’interfaces utilisateurs (UI/UX)",
+        "Gestion de bases de données (MySQL)",
+        "Utilisation de frameworks modernes (React, Node.js, Laravel)",
+        "Collaboration avec les équipes internes pour répondre aux besoins métiers"
       ],
       "screenshots": [
-        "app1.png",
-        "app2.png"
+        "dashboard.png",
+        "app_interface.png",
+        "database_structure.png"
       ],
       "github": "",
       "demo": null
@@ -78,23 +92,36 @@
     "image": "aeva_logo.png",
     "link": "",
     "details": {
-      "context": "Alternance en entreprise avec développement web et gestion de projets.",
+      "context": "Alternance en tant que développeur web et réseaux au sein de l’entreprise AEVA (secteur assurance). Intervention sur des applications utilisées en production par les équipes internes et les clients, avec des enjeux de performance, de stabilité et de continuité de service.",
       "objectives": [
-        "Créer des applications web",
-        "Maintenir des systèmes existants",
-        "Optimiser les performances"
+        "Maintenir et faire évoluer des applications critiques en production",
+        "Garantir la stabilité et la fiabilité des outils métiers",
+        "Améliorer les performances globales des applications web",
+        "Moderniser le code existant et les technologies utilisées",
+        "Optimiser les bases de données et les traitements",
+        "Assurer un support technique réactif aux utilisateurs internes"
       ],
       "features": [
-        "Développement d'une API",
-        "Refonte d'application interne",
-        "Optimisation base de données"
+        "Maintenance et évolution du site web AEVA (WordPress) avec intégration de contenus et corrections techniques",
+        "Refonte et amélioration de l’interface utilisateur pour une meilleure expérience client",
+        "Maintenance et amélioration d’un outil de calcul en ligne utilisé par les clients",
+        "Migration complète d’une application de PHP 5.6 vers PHP 8.2 (compatibilité, refactorisation, corrections)",
+        "Correction de bugs critiques impactant directement les utilisateurs",
+        "Optimisation du code existant pour améliorer les performances et la stabilité",
+        "Amélioration des temps de réponse sur certaines fonctionnalités clés",
+        "Optimisation des requêtes SQL et gestion avancée de la base de données MySQL",
+        "Intervention sur des environnements en production avec contraintes réelles",
+        "Support technique et résolution d’incidents (diagnostic, correction, mise en production)",
+        "Participation à la gestion des serveurs et des services web",
+        "Collaboration avec les équipes métiers pour comprendre et implémenter les besoins"
       ],
       "screenshots": [
-        "app1.png",
-        "app2.png"
+        "aeva_site.png",
+        "aeva_process.png",
+        "aeva_dashboard.png"
       ],
       "github": "",
-      "demo": null
+      "demo": "https://www.aeva.fr/"
     }
   },
   {
@@ -111,20 +138,30 @@
     "image": "portfolio_logo.png",
     "link": "",
     "details": {
-      "context": "Alternance en entreprise avec développement web et gestion de projets.",
+      "context": "Conception et développement de mon portfolio personnel afin de disposer d’une vitrine web professionnelle. L’objectif est de présenter mon parcours, mes compétences, mes expériences en entreprise et les différents projets techniques réalisés durant ma formation et mon alternance.",
       "objectives": [
-        "Créer des applications web",
-        "Maintenir des systèmes existants",
-        "Optimiser les performances"
+        "Valoriser mon profil de développeur web",
+        "Présenter mes projets de manière claire et structurée",
+        "Mettre en avant mes compétences front-end et ma logique de développement",
+        "Créer un site moderne, responsive et évolutif",
+        "Disposer d’un support de présentation professionnel pour les recruteurs"
       ],
       "features": [
-        "Développement d'une API",
-        "Refonte d'application interne",
-        "Optimisation base de données"
+        "Développement du site avec React, Vite et JavaScript",
+        "Organisation du contenu avec des composants réutilisables",
+        "Gestion dynamique des projets via un fichier JSON",
+        "Création de routes dédiées pour chaque page et chaque projet",
+        "Développement d’une page “voir en détail” pour enrichir la présentation des réalisations",
+        "Intégration d’un design responsive compatible mobile, tablette et desktop",
+        "Travail sur l’ergonomie et la hiérarchisation visuelle des informations",
+        "Personnalisation avancée du style avec CSS",
+        "Mise en place d’une base évolutive pour ajouter facilement de nouveaux projets",
+        "Utilisation du portfolio comme support concret de démonstration de compétences"
       ],
       "screenshots": [
-        "app1.png",
-        "app2.png"
+        "portfolio_home.png",
+        "portfolio_projects.png",
+        "portfolio_contact.png"
       ],
       "github": "https://github.com/Frozzfr/Portfolio",
       "demo": null
@@ -211,23 +248,33 @@
     "image": "aeva_logo.png",
     "link": "https://aeva.fr/process/",
     "details": {
-      "context": "Alternance en entreprise avec développement web et gestion de projets.",
+      "context": "Projet réalisé en entreprise chez AEVA sur un outil de calcul en ligne accessible aux clients via https://aeva.fr/process/. Cette application permet de chiffrer des résistances électriques (notamment pour le chauffage d’eau, d’huile, etc.) puis de générer une commande directement à partir du calcul. Outil utilisé en production pour faciliter la configuration et l’achat de produits techniques.",
       "objectives": [
-        "Créer des applications web",
-        "Maintenir des systèmes existants",
-        "Optimiser les performances"
+        "Moderniser une application métier utilisée par les clients",
+        "Garantir la fiabilité du chiffrage des produits",
+        "Assurer la compatibilité avec les versions récentes de PHP",
+        "Améliorer la stabilité et les performances de l'application",
+        "Optimiser le parcours utilisateur jusqu’à la commande"
       ],
       "features": [
-        "Développement d'une API",
-        "Refonte d'application interne",
-        "Optimisation base de données"
+        "Migration complète du code de PHP 5.6 vers PHP 8.2",
+        "Refactorisation du code pour améliorer la lisibilité et la maintenabilité",
+        "Correction de bugs impactant le calcul des produits",
+        "Optimisation des traitements pour accélérer le chiffrage",
+        "Amélioration des performances globales de l'application",
+        "Refonte partielle de l’interface utilisateur (HTML / CSS)",
+        "Optimisation du parcours client (configuration → chiffrage → commande)",
+        "Optimisation des requêtes SQL et gestion de la base de données MySQL",
+        "Tests et validation en environnement de production",
+        "Collaboration avec les équipes métiers pour valider les logiques de calcul"
       ],
       "screenshots": [
-        "app1.png",
-        "app2.png"
+        "aeva_calc_interface.png",
+        "aeva_calc_form.png",
+        "aeva_calc_result.png"
       ],
-      "github": "https://github.com/tonrepo",
-      "demo": null
+      "github": "",
+      "demo": "https://aeva.fr/process/"
     }
   },
   {
@@ -299,7 +346,7 @@
   },
   {
     "title": "LeCocoon D'Ysélia",
-    "slug": "lecocoon-dyselia",
+    "slug": "",
     "description": "Site vitrine en cours de développement ... LeCocoon D'Ysélia est un institut de beauté situé à ribecouret dreslincourt.",
     "technologies": [
       "HTML",
@@ -337,26 +384,34 @@
       "Linux",
       "Réseaux"
     ],
-    "image": "logo_root-me.png",
+    "image": "logo_root-me.jpeg",
     "link": "https://www.root-me.org/Frozz-716148",
     "details": {
-      "context": "Alternance en entreprise avec développement web et gestion de projets.",
+      "context": "Participation régulière à des challenges de cybersécurité sur la plateforme Root-Me (https://www.root-me.org/). Résolution de problèmes techniques dans différents domaines (web, cryptographie, systèmes) afin de développer des compétences en sécurité informatique et en analyse de vulnérabilités.",
       "objectives": [
-        "Créer des applications web",
-        "Maintenir des systèmes existants",
-        "Optimiser les performances"
+        "Développer des compétences en cybersécurité offensive",
+        "Comprendre et exploiter des vulnérabilités web",
+        "Améliorer ses capacités d’analyse et de résolution de problèmes",
+        "Se familiariser avec les concepts de cryptographie",
+        "Renforcer ses connaissances en systèmes et réseaux"
       ],
       "features": [
-        "Développement d'une API",
-        "Refonte d'application interne",
-        "Optimisation base de données"
+        "Résolution de challenges en sécurité web (XSS, SQL Injection, etc.)",
+        "Analyse et exploitation de vulnérabilités sur des applications",
+        "Utilisation d’outils de cybersécurité (Kali Linux, Burp Suite, etc.)",
+        "Résolution de challenges en cryptographie (chiffrement, déchiffrement)",
+        "Travail sur des environnements systèmes (Linux)",
+        "Lecture et analyse de code pour identifier des failles",
+        "Développement d’une méthodologie d’attaque et de résolution",
+        "Progression continue à travers différents niveaux de difficulté"
       ],
       "screenshots": [
-        "app1.png",
-        "app2.png"
+        "rootme_profile.png",
+        "rootme_challenge.png",
+        "rootme_success.png"
       ],
-      "github": "https://github.com/tonrepo",
-      "demo": null
+      "github": "",
+      "demo": "https://www.root-me.org/Frozz-716148"
     }
   }
 ]
