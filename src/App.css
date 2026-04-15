@@ -1,5 +1,7 @@
 /* Police d'écriture */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"); */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
 
 footer,
 header,
@@ -22,7 +24,6 @@ video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article,
 aside,
 details,
 :root {
@@ -55,6 +56,8 @@ details,
   --card-bg: #FFFFFF;
   --border-color: #E2E8F0;
 
+  --font-nunito: 'Nunito', sans-serif;
+
 }
 
 
@@ -86,6 +89,7 @@ body.dark {
   --card-bg: #1A1F2E;
   --border-color: rgba(148, 163, 184, 0.16);
 
+  --font-nunito: 'Nunito', sans-serif;
 }
 
 
@@ -93,7 +97,7 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   transition: background-color 0.4s, color 0.4s;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-nunito);
   line-height: 1.6;
   font-size: 16px;
   transition: background-color 0.5s ease, color 0.5s ease;

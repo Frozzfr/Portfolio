@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { motion } from "framer-motion";
 import "./Navbar.css";
@@ -16,6 +16,15 @@ function Navbar() {
   const closeMenu = () => {
     setMenuOpen(false);
   };
+
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    if (window.innerWidth > 768) {
+      setMenuOpen(false);
+    }
+  }, [location.pathname]);
 
   return (
     <motion.header

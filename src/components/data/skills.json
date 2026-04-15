@@ -1,20 +1,87 @@
 [
-    { "name": "HTML5 / CSS3", "level": 90, "icon": "FaHtml5" },
-    { "name": "JavaScript", "level": 75, "icon": "FaJs" },
-    { "name": "PHP", "level": 80, "icon": "FaPhp" },
-    { "name": "React", "level": 60, "icon": "FaReact" },
-    { "name": "Linux", "level": 70, "icon": "FaLinux" },
-    { "name": "Cybersécurité", "level": 80, "icon": "GiLockedChest" },
-    { "name": "Réseaux", "level": 70, "icon": "FaNetworkWired" },
-    { "name": "MySQL", "level": 65, "icon": "GrMysql" },
-    { "name": "Git", "level": 20, "icon": "FaGitAlt" },
-    { "name": "Node.js", "level": 40, "icon": "FaNodeJs" },
-    { "name": "Express", "level": 40, "icon": "FaServer"},
-    { "name": "Canva", "level": 60, "icon": "FaCanva" },
-    { "name": "Java", "level": 50, "icon": "FaJava" },
-    { "name": "Python", "level": 50, "icon": "FaPython" },
-    { "name": "Bootstrap", "level": 50, "icon": "FaBootstrap" },
-    { "name": "Sass", "level": 50, "icon": "FaSass" },
-    { "name": "GitHub", "level": 50, "icon": "FaGithub" }
-  ]
-  
+  {
+    "name": "HTML5 / CSS3",
+    "level": 90,
+    "icon": "FaHtml5"
+  },
+  {
+    "name": "JavaScript",
+    "level": 75,
+    "icon": "FaJs"
+  },
+  {
+    "name": "PHP",
+    "level": 60,
+    "icon": "FaPhp"
+  },
+  {
+    "name": "React",
+    "level": 60,
+    "icon": "FaReact"
+  },
+  {
+    "name": "Linux",
+    "level": 55,
+    "icon": "FaLinux"
+  },
+  {
+    "name": "Cybersécurité",
+    "level": 30,
+    "icon": "GiLockedChest"
+  },
+  {
+    "name": "Réseaux",
+    "level": 55,
+    "icon": "FaNetworkWired"
+  },
+  {
+    "name": "MySQL",
+    "level": 65,
+    "icon": "GrMysql"
+  },
+  {
+    "name": "Git",
+    "level": 65,
+    "icon": "FaGitAlt"
+  },
+  {
+    "name": "Node.js",
+    "level": 55,
+    "icon": "FaNodeJs"
+  },
+  {
+    "name": "Express",
+    "level": 40,
+    "icon": "FaServer"
+  },
+  {
+    "name": "Canva",
+    "level": 60,
+    "icon": "FaCanva"
+  },
+  {
+    "name": "Java",
+    "level": 70,
+    "icon": "FaJava"
+  },
+  {
+    "name": "Python",
+    "level": 75,
+    "icon": "FaPython"
+  },
+  {
+    "name": "Bootstrap",
+    "level": 50,
+    "icon": "FaBootstrap"
+  },
+  {
+    "name": "Sass",
+    "level": 50,
+    "icon": "FaSass"
+  },
+  {
+    "name": "GitHub",
+    "level": 50,
+    "icon": "FaGithub"
+  }
+]

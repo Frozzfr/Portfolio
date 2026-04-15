@@ -18,7 +18,7 @@
 }
 
 .about-card {
-    background: var(--card-projet);
+    background: var(--background-color);
     border-radius: 12px;
     padding: 35px;
     transition: all 0.3s ease;

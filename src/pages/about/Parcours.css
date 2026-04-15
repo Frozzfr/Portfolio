@@ -1,0 +1,231 @@
+.parcours-page {
+    padding: 4rem 2rem;
+    border-radius: 12px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.parcours-intro {
+    max-width: 850px;
+    margin-top: 1rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+}
+
+.section-heading {
+    margin-bottom: 1.8rem;
+}
+
+.section-tag {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.section-heading h1 {
+    margin: 0;
+    font-size: 2.4rem;
+    color: var(--primary-color);
+}
+
+.frise-alternate {
+    position: relative;
+    display: grid;
+    gap: 0.2rem;
+}
+
+.frise-alternate::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    background: linear-gradient(to bottom,
+            transparent 0%,
+            var(--border-color) 8%,
+            var(--border-color) 92%,
+            transparent 100%);
+    opacity: 0.95;
+}
+
+.frise-row {
+    display: grid;
+    grid-template-columns: 1fr 38px 1fr;
+    align-items: center;
+    gap: 0.3rem;
+    position: relative;
+}
+
+.frise-row+.frise-row {
+    margin-top: -3.4rem;
+}
+
+.frise-empty {
+    min-height: 1px;
+}
+
+.frise-dot {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    border: 3px solid var(--background-color);
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+    z-index: 4;
+}
+
+.frise-card {
+    position: relative;
+    z-index: 2;
+    padding: 1rem 1.05rem;
+    border-radius: 16px;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--box-shadows-projet);
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.frise-card:hover {
+    transform: translateY(-4px) scale(1.01);
+    border-color: var(--secondary-color);
+    z-index: 6;
+}
+
+.frise-date {
+    display: inline-block;
+    margin-bottom: 0.7rem;
+    padding: 0.42rem 0.72rem;
+    border-radius: 999px;
+    background-color: var(--over-project);
+    border: 1px solid var(--border-color);
+    color: var(--secondary-color);
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.frise-card h3 {
+    margin: 0 0 0.3rem;
+    font-size: 1.05rem;
+    color: var(--primary-color);
+}
+
+.frise-card h4 {
+    margin: 0 0 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.frise-card p {
+    margin: 0;
+    line-height: 1.55;
+    color: var(--text-secondary);
+    font-size: 0.93rem;
+}
+
+.frise-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.42rem;
+    margin-top: 0.9rem;
+}
+
+.frise-tags span {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.38rem 0.65rem;
+    border-radius: 999px;
+    background-color: var(--over-project);
+    border: 1px solid var(--border-color);
+    color: var(--secondary-color);
+    font-size: 0.78rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+@media (max-width: 900px) {
+    .frise-alternate {
+        gap: 0.8rem;
+    }
+
+    .frise-alternate::before {
+        left: 14px;
+        transform: none;
+    }
+
+    .frise-row {
+        grid-template-columns: 28px 1fr;
+        gap: 0.7rem;
+    }
+
+    .frise-row+.frise-row {
+        margin-top: 0;
+    }
+
+    .frise-empty {
+        display: none;
+    }
+
+    .frise-dot {
+        width: 12px;
+        height: 12px;
+        border-width: 2px;
+    }
+
+    .frise-row.left .frise-card,
+    .frise-row.right .frise-card {
+        grid-column: 2;
+    }
+
+    .frise-row.left .frise-dot,
+    .frise-row.right .frise-dot {
+        grid-column: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .parcours-page {
+        padding: 3rem 1rem;
+    }
+
+    .section-heading {
+        margin-bottom: 1.4rem;
+    }
+
+    .section-heading h1 {
+        font-size: 1.9rem;
+    }
+
+    .parcours-intro {
+        line-height: 1.6;
+    }
+
+    .frise-card {
+        padding: 0.95rem;
+        border-radius: 14px;
+    }
+
+    .frise-card h3 {
+        font-size: 1rem;
+    }
+
+    .frise-card h4 {
+        font-size: 0.86rem;
+    }
+
+    .frise-card p {
+        font-size: 0.9rem;
+    }
+
+    .frise-tags span {
+        font-size: 0.75rem;
+    }
+}
