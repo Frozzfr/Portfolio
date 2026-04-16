@@ -94,6 +94,56 @@ function Competences() {
             </article>
           ))}
         </div>
+        <section className="document-section">
+          <div className="document-header">
+            <span className="section-tag">Document</span>
+            <h2>Mon Tableau de compétences</h2>
+            <p>
+              Mon Tableau de compétences est consultable directement depuis cette page. Il peut aussi être
+              ouvert dans un nouvel onglet ou téléchargé au format PDF.
+            </p>
+          </div>
+
+          <div className="document-card">
+            <div className="document-card-top">
+              <div className="document-title">
+                <Fa.FaFilePdf className="document-pdf-icon" />
+                <div>
+                  <h3>Tableau de compétences – Loïc Saouter</h3>
+                  <span>Format PDF</span>
+                </div>
+              </div>
+
+              <div className="document-actions">
+                <a
+                  href="../../../tableau-competences-loic-saouter.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="doc-btn secondary"
+                >
+                  <Fa.FaExternalLinkAlt />
+                  Ouvrir
+                </a>
+
+                <a
+                  href="../../../tableau-competences-loic-saouter.pdf"
+                  download
+                  className="doc-btn primary"
+                >
+                  <Fa.FaDownload />
+                  Télécharger
+                </a>
+              </div>
+            </div>
+
+            <div className="document-preview">
+              <iframe
+                src="../../../tableau-competences-loic-saouter.pdf"
+                title="Aperçu du Tableau de compétences de Loïc Saouter"
+              />
+            </div>
+          </div>
+        </section>
       </section>
     </PageFade>
   );
