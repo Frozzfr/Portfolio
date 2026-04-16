@@ -94,57 +94,6 @@ function Competences() {
             </article>
           ))}
         </div>
-
-        <section className="document-section">
-          <div className="document-header">
-            <span className="section-tag">Document</span>
-            <h2>Mon CV en aperçu</h2>
-            <p>
-              Mon CV est consultable directement depuis cette page. Il peut aussi être
-              ouvert dans un nouvel onglet ou téléchargé au format PDF.
-            </p>
-          </div>
-
-          <div className="document-card">
-            <div className="document-card-top">
-              <div className="document-title">
-                <Fa.FaFilePdf className="document-pdf-icon" />
-                <div>
-                  <h3>CV – Loïc Saouter</h3>
-                  <span>Format PDF</span>
-                </div>
-              </div>
-
-              <div className="document-actions">
-                <a
-                  href="../../../public/cv-loic-saouter.pdf"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="doc-btn secondary"
-                >
-                  <Fa.FaExternalLinkAlt />
-                  Ouvrir
-                </a>
-
-                <a
-                  href="../../../public/cv-loic-saouter.pdf"
-                  download
-                  className="doc-btn primary"
-                >
-                  <Fa.FaDownload />
-                  Télécharger
-                </a>
-              </div>
-            </div>
-
-            <div className="document-preview">
-              <iframe
-                src="../../../public/cv-loic-saouter.pdf"
-                title="Aperçu du CV de Loïc Saouter"
-              />
-            </div>
-          </div>
-        </section>
       </section>
     </PageFade>
   );

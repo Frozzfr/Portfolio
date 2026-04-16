@@ -1,7 +1,12 @@
+.about-page {
+    padding: 4rem 2rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border-radius: 12px;
+}
+
 .about-me {
     max-width: 900px;
-    margin: auto;
-    padding: 40px 20px;
 }
 
 .about-title {
@@ -79,4 +84,99 @@
     font-style: italic;
     opacity: 0.9;
     line-height: 1.6;
+}
+
+
+.document-section {
+    margin-top: 1rem;
+}
+
+.document-card {
+    margin-top: 1.25rem;
+    padding: 1.25rem;
+    border-radius: 18px;
+    background: var(--card-projet);
+    border: var(--border-projet);
+    box-shadow: var(--box-shadows-projet);
+}
+
+.document-card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.document-title {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+}
+
+.document-title h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: var(--primary-color);
+}
+
+.document-title span {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.document-pdf-icon {
+    font-size: 1.8rem;
+    color: #dc2626;
+    flex-shrink: 0;
+}
+
+.document-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.doc-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    padding: 0.85rem 1.1rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.doc-btn.primary {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.doc-btn.primary:hover,
+.doc-btn.secondary:hover {
+    transform: translateY(-2px);
+}
+
+.doc-btn.secondary {
+    border: 1px solid var(--border-color);
+    background: var(--over-project);
+    color: var(--text-color);
+}
+
+.document-preview {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 14px;
+    border: 1px solid var(--border-color);
+    background: #fff;
+}
+
+.document-preview iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
 }
