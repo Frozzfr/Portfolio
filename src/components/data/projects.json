@@ -92,14 +92,13 @@
     "image": "aeva_logo.png",
     "link": "",
     "details": {
-      "context": "Alternance en tant que développeur web et réseaux au sein de l’entreprise AEVA (secteur assurance). Intervention sur des applications utilisées en production par les équipes internes et les clients, avec des enjeux de performance, de stabilité et de continuité de service.",
+      "context": "Alternance en tant que développeur web et réseaux au sein de l’entreprise AEVA. Intervention sur des applications utilisées en production par les équipes internes et les clients, avec des enjeux de performance, de stabilité et de continuité de service.",
       "objectives": [
         "Maintenir et faire évoluer des applications critiques en production",
         "Garantir la stabilité et la fiabilité des outils métiers",
         "Améliorer les performances globales des applications web",
         "Moderniser le code existant et les technologies utilisées",
-        "Optimiser les bases de données et les traitements",
-        "Assurer un support technique réactif aux utilisateurs internes"
+        "Optimiser les bases de données et les traitements"
       ],
       "features": [
         "Maintenance et évolution du site web AEVA (WordPress) avec intégration de contenus et corrections techniques",

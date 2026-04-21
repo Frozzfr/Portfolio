@@ -19,7 +19,7 @@ import Moi from "./pages/about/Moi";
 import Entreprise from "./pages/about/Entreprise";
 import Competences from "./pages/about/Competences";
 import Parcours from "./pages/about/Parcours";
-import Objectifs from "./pages/about/Objectifs";
+//import Objectifs from "./pages/about/Objectifs";
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
           <Route path="competences" element={<Competences />} />
           <Route path="parcours" element={<Parcours />} />
           <Route path="entreprise" element={<Entreprise />} />
-          <Route path="objectifs" element={<Objectifs />} />
+          {/* <Route path="objectifs" element={<Objectifs />} /> */}
         </Route>
 
         <Route path="/projects" element={<Projects />} />

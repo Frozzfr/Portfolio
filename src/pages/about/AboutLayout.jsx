@@ -14,8 +14,8 @@ const items = [
     { to: "moi", label: "Moi", icon: User, desc: "Profil & présentation" },
     { to: "competences", label: "Compétences", icon: Code2, desc: "Stack & outils" },
     { to: "parcours", label: "Parcours", icon: History, desc: "Timeline & expériences" },
-    { to: "entreprise", label: "Entreprise", icon: Building2, desc: "Alternance & missions" },
-    { to: "objectifs", label: "Objectifs", icon: Target, desc: "Vision & next step" },
+    { to: "entreprise", label: "Entreprise", icon: Building2, desc: "Alternance & missions" }
+    //{ to: "objectifs", label: "Objectifs", icon: Target, desc: "Vision & next step" },
 ];
 
 export default function AboutLayout() {

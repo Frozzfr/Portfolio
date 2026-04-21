@@ -116,7 +116,7 @@ function Competences() {
 
               <div className="document-actions">
                 <a
-                  href="../../../tableau-competences-loic-saouter.pdf"
+                  href="../../../documents/tableau-competences.pdf"
                   target="_blank"
                   rel="noreferrer"
                   className="doc-btn secondary"
@@ -126,7 +126,7 @@ function Competences() {
                 </a>
 
                 <a
-                  href="../../../tableau-competences-loic-saouter.pdf"
+                  href="../../../documents/tableau-competences.pdf"
                   download
                   className="doc-btn primary"
                 >
@@ -138,8 +138,8 @@ function Competences() {
 
             <div className="document-preview">
               <iframe
-                src="../../../tableau-competences-loic-saouter.pdf"
-                title="Aperçu du Tableau de compétences de Loïc Saouter"
+                src="../../../documents/tableau-competences.pdf"
+                title="Aperçu du Tableau de compétencesr"
               />
             </div>
           </div>
