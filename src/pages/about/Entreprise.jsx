@@ -1,4 +1,4 @@
-import "./entreprise.css";
+import "./Entreprise.css";
 
 export default function Entreprise() {
     return (
