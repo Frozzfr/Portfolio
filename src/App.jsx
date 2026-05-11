@@ -40,7 +40,7 @@ function App() {
         <Route path="/projects/:slug" element={<ProjectDetails />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/mentions-legales" element={<MentionsLegales />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="*" element={<Home />} />
       </Routes>
       <Footer />
     </>
